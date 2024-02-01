@@ -96,7 +96,7 @@ const Nav = () => {
                                 </ul>
                             </li>
                             <li>
-                                <Link className={styles.link} href="/en/support/contact-us">Contact Us</Link>
+                                <Link className={styles.link} href="https://www.securecafe3.com/newtenantportal/content2/login/?CompanyId=3788">Contact Us</Link>
                             </li>
                         </ul>
                     </div>
