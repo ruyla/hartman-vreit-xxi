@@ -157,7 +157,7 @@ const Nav = () => {
                                 <Link className={styles.link} href="https://www.impaksolutions.com/hartman/">Work Orders</Link>
                             </li>
                             <li>
-                                <Link className={styles.link} href="/en/support/payments">Payments</Link>
+                                <Link className={styles.link} href="https://www.securecafe3.com/newtenantportal/content2/login/?CompanyId=3788">Payments</Link>
                             </li>
                         </ul>
                     </li>
