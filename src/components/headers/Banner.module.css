@@ -1,0 +1,17 @@
+.header {
+    align-items: center;
+    background-color: var(--background-dark);
+    border-bottom: 3px solid var(--beta);
+    display: flex;
+    flex-direction: column;
+    min-height: 13vh;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header {
+        min-height: 12vh;
+    }
+}

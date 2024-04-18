@@ -1,0 +1,11 @@
+.main {
+    align-items: center;
+    background-color: var(--background-light);
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 0 5%;
+    width: 100%;
+}

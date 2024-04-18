@@ -1,0 +1,18 @@
+TODO: Enable reCaptcha on the form?
+TODO: Overwrite the default error messages for email input.
+
+TODO: FIX MICROSOFT EDGE NOT LOADING SOME IMAGES!
+
+TODO: Fix the generateMetadata functions in our dynamic routes
+TODO: Fix this build error: src/app/en/leasing/properties/[city]/page.tsx
+Type error: Type 'ResolvingMetadata | undefined' does not satisfy the constraint 'ResolvingMetadata'.
+  Type 'undefined' is not assignable to type 'Promise<ResolvedMetadata>'. 
+
+
+FUTURE UPDATES:
+
+I. Client testimonials for each property.
+II. Search bar for properties and/or available spaces, which can utilize sorting for location, price, property type, etc.
+III. Add in a display toggle on the /en/leasing/properties page that allows you to turn cards on or off based on the selected cities.
+IV. Add a people data point to our properties to display who the property manager and engineer are on each page.
+V. Add in nearby locations to each property that would be considered attractors.

@@ -1,0 +1,187 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto, min-content;
+    grid-auto-rows: auto;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.wrapper>* {
+    align-items: center;
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.25rem;
+}
+
+.header {
+    flex-direction: row;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-content: space-around;
+}
+
+.slideshow {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+.overview {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    padding: 0 5rem;
+    text-align: left;
+}
+
+.staff {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+}
+
+.availableSpaces {
+    grid-column: 1 / -1;
+    grid-row: 4 / 5;
+}
+
+.statistics {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistics>span {
+    background-color: var(--foreground);
+    border-radius: 8px;
+    margin: 2px;
+    padding: 0.25rem 0.5rem;
+}
+
+.statistics>:last-child {
+    padding: 0;
+}
+
+.statistics> :last-child>* {
+    font-size: 1.6rem;
+    padding: 0 0.5rem;
+}
+
+.statistics>:last-child:hover {
+    background-color: var(--gamma);
+    border: 2px solid var(--delta);
+    transform: scale(1.1);
+}
+
+.reviews {
+    grid-column: 4 / 10;
+    grid-row: 5 / 6;
+}
+
+.amenities {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+}
+
+.hours {
+    flex-direction: row;
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+    justify-content: space-evenly;
+}
+
+.building>span,
+.security>span {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.resources {
+    flex-direction: row;
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .header {
+        flex-direction: row;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        justify-content: space-around;
+    }
+
+    .slideshow {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+    }
+
+    .overview {
+        grid-column: 1 / 10;
+        grid-row: 3 / 4;
+        padding: 0 5rem;
+        text-align: left;
+    }
+
+    .staff {
+        grid-column: 1 / 10;
+        grid-row: 4 / 5;
+    }
+
+    .availableSpaces {
+        grid-column: 10 / -1;
+        grid-row: 3 / 5;
+    }
+
+    .statistics {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .statistics>span {
+        background-color: var(--foreground);
+        border-radius: 8px;
+        margin: 2px;
+        padding: 0.25rem 0.5rem;
+    }
+
+    .reviews {
+        grid-column: 4 / 10;
+        grid-row: 5 / 6;
+    }
+
+    .amenities {
+        grid-column: 1 / 7;
+        grid-row: 5 / 6;
+    }
+
+    .hours {
+        flex-direction: row;
+        grid-column: 7 / -1;
+        grid-row: 5 / 6;
+        justify-content: space-evenly;
+    }
+
+    .building>span,
+    .security>span {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .resources {
+        flex-direction: row;
+        grid-column: 1 / -1;
+        grid-row: 7 / 8;
+        justify-content: space-around;
+        margin-bottom: 0.5rem;
+    }
+}

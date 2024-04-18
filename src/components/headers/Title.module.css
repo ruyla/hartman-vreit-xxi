@@ -1,0 +1,7 @@
+.title {
+    background-color: var(--background-dark);
+    border-bottom: 2px solid var(--beta);
+    border-radius: 12px;
+    margin-top: 2rem;
+    width: 75vw;
+}

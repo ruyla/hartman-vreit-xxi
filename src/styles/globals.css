@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Most of the variables are used outside this file, so do not delete any of them. */
+:root {
+    --alpha: #014463;
+    --beta: #1D6A96;
+    --beta-10: rgba(29, 106, 150, 0.1);
+    --beta-20: rgba(29, 106, 150, 0.2);
+    --beta-30: rgba(29, 106, 150, 0.3);
+    --beta-40: rgba(29, 106, 150, 0.4);
+    --beta-50: rgba(29, 106, 150, 0.5);
+    --beta-60: rgba(29, 106, 150, 0.6);
+    --beta-70: rgba(29, 106, 150, 0.7);
+    --beta-80: rgba(29, 106, 150, 0.8);
+    --beta-90: rgba(29, 106, 150, 0.9);
+
+    --gamma: #85B8CB;
+    --delta: rgb(213, 229, 231);
+
+    --black: #0F0F0F;
+    --white: #FAF9F6;
+
+    --background-dark: var(--alpha);
+    --background-light: var(--delta);
+    --border: var(--alpha);
+    --foreground: var(--beta);
+    --text: var(--white);
+}
+
+a,
+button,
+div,
+input,
+li,
+ol,
+p,
+span,
+textarea,
+ul {
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+
+    a,
+    button,
+    div,
+    input,
+    li,
+    ol,
+    p,
+    span,
+    textarea,
+    ul {
+        font-size: 0.875rem;
+    }
+
+    h1 {
+        font-size: 2.075rem;
+    }
+
+    h2 {
+        font-size: 1.875rem;
+    }
+
+    h3 {
+        font-size: 1.675rem;
+    }
+
+    h4 {
+        font-size: 1.475rem;
+    }
+
+    h5 {
+        font-size: 1.275rem;
+    }
+
+    h6 {
+        font-size: 1.075rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    a,
+    button,
+    div,
+    input,
+    li,
+    ol,
+    p,
+    span,
+    textarea,
+    ul {
+        font-size: 0.95rem;
+    }
+
+    h1 {
+        font-size: 2.15rem;
+    }
+
+    h2 {
+        font-size: 1.95rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.55rem;
+    }
+
+    h5 {
+        font-size: 1.35rem;
+    }
+
+    h6 {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    a,
+    button,
+    div,
+    input,
+    li,
+    ol,
+    p,
+    span,
+    textarea,
+    ul {
+        font-size: 1.025rem;
+    }
+
+    h1 {
+        font-size: 2.225rem;
+    }
+
+    h2 {
+        font-size: 2.025rem;
+    }
+
+    h3 {
+        font-size: 1.825rem;
+    }
+
+    h4 {
+        font-size: 1.625rem;
+    }
+
+    h5 {
+        font-size: 1.425rem;
+    }
+
+    h6 {
+        font-size: 1.225rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    a,
+    button,
+    div,
+    input,
+    li,
+    ol,
+    p,
+    span,
+    textarea,
+    ul {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    h6 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+
+    a,
+    button,
+    div,
+    input,
+    li,
+    ol,
+    p,
+    span,
+    textarea,
+    ul {
+        font-size: 1.175rem;
+    }
+
+    h1 {
+        font-size: 2.375rem;
+    }
+
+    h2 {
+        font-size: 2.175rem;
+    }
+
+    h3 {
+        font-size: 1.975rem;
+    }
+
+    h4 {
+        font-size: 1.775rem;
+    }
+
+    h5 {
+        font-size: 1.575rem;
+    }
+
+    h6 {
+        font-size: 1.375rem;
+    }
+}

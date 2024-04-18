@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: var(--foreground);
+    border: 3px solid var(--border);
+    border-radius: 1rem 1rem 0 0;
+    margin: 0.5rem;
+}
+
+.image {
+    border-bottom: 2px solid var(--delta);
+    border-radius: 1rem 1rem 0 0;
+}

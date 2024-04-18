@@ -1,0 +1,78 @@
+.div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    height: 100%;
+    padding: 1px;
+    width: 100%;
+}
+
+.wrapper,
+.imageContainer,
+.textContainer {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    padding: 2px 4px;
+}
+
+.imageContainer {
+    border: 1px solid var(--border);
+    flex-grow: 2;
+    margin-bottom: 4px;
+    min-height: 35vh;
+    min-width: 75vw;
+    position: relative;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.textContainer {
+    background-color: var(--foreground);
+    border: 1px solid var(--border);
+    padding: 0 4px;
+}
+
+.div:hover .textContainer {
+    color: var(--alpha);
+    background-color: var(--gamma);
+}
+
+@media screen and (min-width: 640px) {
+    .imageContainer {
+        min-height: 30vh;
+        min-width: 40vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        min-height: 20vh;
+        min-width: 25vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        min-height: 25vh;
+        min-width: 20vw;
+    }
+}

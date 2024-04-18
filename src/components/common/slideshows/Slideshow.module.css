@@ -1,0 +1,172 @@
+.slideshow,
+.wrapper {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.slideshow {
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slides {
+    height: 100%;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.wrapper {
+    border: none;
+    border-radius: 8px;
+    bottom: 8px;
+    padding-bottom: 1px;
+    position: absolute;
+}
+
+.previous,
+.next {
+    min-height: 20px;
+    min-width: 24px;
+}
+
+.previous {
+    left: 1%;
+}
+
+.next {
+    right: 1%;
+}
+
+.previous>button,
+.next>button {
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.previous>button {
+    padding-right: 1px;
+}
+
+.next>button {
+    padding-left: 1px;
+}
+
+.dots {
+    max-width: 80%;
+    padding: 1px 3px;
+}
+
+.dot {
+    background-color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 50%;
+    height: 8px;
+    margin: 3px;
+    width: 8px;
+}
+
+.current {
+    background-color: var(--white);
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .slideshow {
+        max-height: 54vh;
+    }
+
+    .previous,
+    .next {
+        min-height: 22px;
+        min-width: 26px;
+    }
+
+    .dot {
+        height: 10px;
+        margin: 4px;
+        width: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slideshow {
+        max-height: 60vh;
+    }
+
+    .previous,
+    .next {
+        min-height: 24px;
+        min-width: 28px;
+    }
+
+    .dot {
+        height: 12px;
+        margin: 4px;
+        width: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slideshow {
+        max-height: 64vh;
+    }
+
+    .previous,
+    .next {
+        min-height: 26px;
+        min-width: 30px;
+    }
+
+    .dot {
+        height: 14px;
+        margin: 5px;
+        width: 14px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .slideshow {
+        max-height: 68vh;
+    }
+
+    .previous,
+    .next {
+        min-height: 28px;
+        min-width: 32px;
+    }
+
+    .dot {
+        height: 16px;
+        margin: 5px;
+        width: 16px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .slideshow {
+        max-height: 72vh;
+    }
+
+    .previous,
+    .next {
+        min-height: 30px;
+        min-width: 34px;
+    }
+
+    .dot {
+        height: 18px;
+        margin: 6px;
+        width: 18px;
+    }
+}

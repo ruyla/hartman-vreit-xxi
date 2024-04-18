@@ -1,0 +1,79 @@
+.modal {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0.1rem 0;
+    width: 100%;
+}
+
+.button {
+    background-color: var(--alpha);
+    border: 2px solid var(--gamma);
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    width: 60%;
+}
+
+.button:hover {
+    background-color: var(--gamma);
+    border: 2px solid var(--delta);
+    color: var(--alpha);
+    transform: scale(1.1);
+}
+
+.background {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    /* The navigation bar is on z-100 so if we want it to not interfere, we need to be above it. */
+    z-index: 101;
+}
+
+.box {
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    height: 90vh;
+    position: relative;
+    width: 80vw;
+}
+
+.image {
+    border-radius: 12px;
+}
+
+.closeButtonContainer {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.closeButton {
+    background-color: var(--foreground);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    height: 100%;
+    padding: 0.1rem 0.6rem;
+    width: 100%;
+}
+
+.closeButton:hover {
+    background-color: var(--gamma);
+    border: 2px solid var(--delta);
+    transform: scale(1.2);
+}
+
+.statistics {
+    background-color: var(--background-dark);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    left: 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+}

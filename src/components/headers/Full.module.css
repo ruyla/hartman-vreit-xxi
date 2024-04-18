@@ -1,0 +1,19 @@
+.header {
+    align-items: center;
+    background-color: var(--background-dark);
+    /* background-image: url('https://hartman-vreit-xxi.s3.us-east-2.amazonaws.com/images/background.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid var(--beta);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    z-index: 0
+}
